@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Ecommerce reserva</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'loja/css/main.css' %}">
+</head>
+<body>
+    {% include 'loja/partials/navbar.html' %}
+
+    {% block content %}
+    {% endblock %}
+
+</body>
+</html>
